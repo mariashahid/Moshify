@@ -4,6 +4,7 @@
   "description": "moshify course",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/mariashahid/Moshify#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
   }
 }
