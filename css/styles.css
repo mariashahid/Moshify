@@ -838,6 +838,7 @@ a {
 /* Footer */
 .footer {
   background: #232323;
+  position: relative;
 }
 
 .footer a {
@@ -905,4 +906,10 @@ a {
   .footer__section {
     border: 0;
   }
+}
+
+.callout {
+  transform: translateY(5rem);
+  position: relative;
+  z-index: 999;
 }
